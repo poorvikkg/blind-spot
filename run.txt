@@ -1,0 +1,21 @@
+To run the Blind Spot Detection System, open your terminal (PowerShell or Command Prompt) and type the following commands:
+
+1. Navigate to your project folder (if you aren't already there):
+   cd c:\Users\Lenovo\OneDrive\Desktop\6thpbl
+
+2. Activate the virtual environment (where we installed your dependencies):
+   .\.venv\Scripts\activate
+
+3. Finally, run the project (choose one of the options below):
+
+   Option A - Live camera with stats dashboard:
+   python run.py --dashboard
+
+   Option B - Simulator with dashboard (if your camera isn't connected):
+   python run.py --sim --dashboard
+
+   Option C - Run pre-flight checks:
+   python run.py --check
+
+   Option D - Interactive ROI calibration tool:
+   python run.py --calibrate

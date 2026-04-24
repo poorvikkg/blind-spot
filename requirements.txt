@@ -1,0 +1,9 @@
+# Core (laptop / Raspberry Pi)
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional — YOLO AI upgrade (comment out if not needed / low RAM)
+# ultralytics>=8.0.0       # YOLOv8 — downloads ~6 MB yolov8n.pt on first run
+
+# Raspberry Pi GPIO (install only on Pi, not laptop)
+# RPi.GPIO>=0.7.1
